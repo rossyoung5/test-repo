@@ -14,7 +14,7 @@ class Cup
         @drink_amount = 0
     end
 
-    def sip amount=5
+    def sip amount=10
         puts "Took a sip"
         if amount > @drink_amount
             @drink_amount = 0
