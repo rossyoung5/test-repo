@@ -36,8 +36,3 @@ puts "Gimme a weight bro"
 desired_weight = gets.chomp.to_i
 bro = Weights.new(desired_weight)
 bro.lift_math(desired_weight)
-
-
-
-
-
